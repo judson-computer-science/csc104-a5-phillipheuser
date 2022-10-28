@@ -1,0 +1,291 @@
+/bin/bash
+philly   tty2         2022-10-27 18:50 (tty2)
+1
+avahi        616       1  0 18:49 ?        00:00:00 avahi-daemon: running [philly-VirtualBox.local]
+avahi        658     616  0 18:49 ?        00:00:00 avahi-daemon: chroot helper
+colord      1110       1  0 18:49 ?        00:00:00 /usr/libexec/colord
+kernoops     787       1  0 18:49 ?        00:00:00 /usr/sbin/kerneloops --test
+kernoops     789       1  0 18:49 ?        00:00:00 /usr/sbin/kerneloops
+lp           761     730  0 18:49 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus://
+message+     618       1  0 18:49 ?        00:00:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+philly      1322       1  0 18:50 ?        00:00:00 /lib/systemd/systemd --user
+philly      1323    1322  0 18:50 ?        00:00:00 (sd-pam)
+philly      1330    1322  0 18:50 ?        00:00:00 /usr/bin/pipewire
+philly      1333    1322  0 18:50 ?        00:00:00 /usr/bin/wireplumber
+philly      1338    1322  0 18:50 ?        00:00:00 /usr/bin/pipewire-pulse
+philly      1339    1322  0 18:50 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+philly      1340    1322  0 18:50 ?        00:00:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+philly      1347    1322  0 18:50 ?        00:00:00 /usr/libexec/gvfsd
+philly      1352    1322  0 18:50 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+philly      1366    1322  0 18:50 ?        00:00:00 /usr/libexec/xdg-document-portal
+philly      1375    1322  0 18:50 ?        00:00:00 /usr/libexec/xdg-permission-store
+philly      1392    1306  0 18:50 tty2     00:00:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+philly      1395    1392  0 18:50 tty2     00:00:00 /usr/libexec/gnome-session-binary --session=ubuntu
+philly      1428    1322  0 18:50 ?        00:00:01 /usr/libexec/tracker-miner-fs-3
+philly      1442    1322  0 18:50 ?        00:00:00 /usr/libexec/gcr-ssh-agent /run/user/1000/gcr
+philly      1443    1322  0 18:50 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+philly      1445    1322  0 18:50 ?        00:00:00 ssh-agent -D -a /run/user/1000/openssh_agent
+philly      1454    1322  0 18:50 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+philly      1481    1322 17 18:50 ?        00:01:23 /usr/bin/gnome-shell
+philly      1483    1454  0 18:50 ?        00:00:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+philly      1484    1322  0 18:50 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+philly      1493    1483  0 18:50 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+philly      1496    1322  0 18:50 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+philly      1504    1322  0 18:50 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+philly      1508    1322  0 18:50 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+philly      1512    1322  0 18:50 ?        00:00:00 /usr/libexec/goa-daemon
+philly      1527    1322  0 18:50 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+philly      1530    1322  0 18:50 ?        00:00:00 /usr/libexec/goa-identity-service
+philly      1568    1322  0 18:50 ?        00:00:00 /usr/libexec/gvfsd-metadata
+philly      1571    1322  0 18:50 ?        00:00:00 /snap/snapd-desktop-integration/14/bin/snapd-desktop-integration
+philly      1623    1322  0 18:50 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+philly      1633    1322  0 18:50 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+philly      1640    1322  0 18:50 ?        00:00:00 /usr/libexec/evolution-source-registry
+philly      1643    1322  0 18:50 ?        00:00:01 /usr/libexec/xdg-desktop-portal-gnome
+philly      1654    1322  0 18:50 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+philly      1659    1347  0 18:50 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+philly      1672    1322  0 18:50 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+philly      1674    1322  0 18:50 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+philly      1676    1322  0 18:50 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+philly      1686    1322  0 18:50 ?        00:00:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+philly      1688    1322  0 18:50 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+philly      1690    1686  0 18:50 ?        00:00:00 /usr/bin/ibus-daemon --panel disable
+philly      1693    1322  0 18:50 ?        00:00:00 /usr/libexec/gsd-color
+philly      1700    1322  0 18:50 ?        00:00:00 /usr/libexec/gsd-datetime
+philly      1701    1322  0 18:50 ?        00:00:00 /usr/libexec/gsd-housekeeping
+philly      1702    1322  0 18:50 ?        00:00:00 /usr/libexec/gsd-keyboard
+philly      1707    1322  0 18:50 ?        00:00:00 /usr/libexec/gsd-media-keys
+philly      1708    1322  0 18:50 ?        00:00:00 /usr/libexec/gsd-power
+philly      1712    1322  0 18:50 ?        00:00:00 /usr/libexec/gsd-print-notifications
+philly      1714    1322  0 18:50 ?        00:00:00 /usr/libexec/gsd-rfkill
+philly      1719    1322  0 18:50 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+philly      1724    1322  0 18:50 ?        00:00:00 /usr/libexec/gsd-sharing
+philly      1728    1322  0 18:50 ?        00:00:00 /usr/libexec/gsd-smartcard
+philly      1731    1322  0 18:50 ?        00:00:00 /usr/libexec/gsd-sound
+philly      1733    1322  0 18:50 ?        00:00:00 /usr/libexec/gsd-wacom
+philly      1753    1690  0 18:50 ?        00:00:00 /usr/libexec/ibus-dconf
+philly      1755    1690  0 18:50 ?        00:00:00 /usr/libexec/ibus-extension-gtk3
+philly      1775    1322  0 18:50 ?        00:00:00 /usr/libexec/ibus-portal
+philly      1776    1454  0 18:50 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+philly      1777    1454  0 18:50 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+philly      1806    1322  0 18:50 ?        00:00:00 /usr/libexec/gsd-printer
+philly      1846    1322  0 18:50 ?        00:00:01 /snap/snap-store/599/usr/bin/snap-store --gapplication-service
+philly      1884    1690  0 18:50 ?        00:00:00 /usr/libexec/ibus-engine-simple
+philly      1952    1322  0 18:50 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+philly      1973    1322  0 18:50 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+philly      1994    1481  0 18:50 ?        00:00:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1440:900:1:27:0:70:0:0
+philly      2506    1481  0 18:51 ?        00:00:04 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.HOTKU1 -listen 4 -listen 5 -displayfd 6 -initfd 7
+philly      2509    1322  0 18:51 ?        00:00:00 /usr/libexec/gsd-xsettings
+philly      2533    1322  0 18:51 ?        00:00:00 /usr/libexec/ibus-x11
+philly      2549    1322  0 18:51 ?        00:00:03 /usr/libexec/gnome-terminal-server
+philly      2567    2549  0 18:51 pts/0    00:00:00 bash
+philly      2588    1454  0 18:51 ?        00:00:00 update-notifier
+philly      2632    1347  0 18:52 ?        00:00:00 /usr/libexec/gvfsd-network --spawner :1.5 /org/gtk/gvfs/exec_spaw/1
+philly      2648    1347  0 18:52 ?        00:00:00 /usr/libexec/gvfsd-dnssd --spawner :1.5 /org/gtk/gvfs/exec_spaw/3
+philly      2657    1322  0 18:52 ?        00:00:00 /usr/libexec/dconf-service
+philly      2689    1481  3 18:52 ?        00:00:13 /opt/google/chrome/chrome --enable-crashpad
+philly      2695    2689  0 18:52 ?        00:00:00 cat
+philly      2696    2689  0 18:52 ?        00:00:00 cat
+philly      2698    1322  0 18:52 ?        00:00:00 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/philly/.config/google-chrome/Crash Reports --metrics-dir=/home/philly/.config/google-chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 22.10 --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=107.0.5304.87 --initial-client-fd=5 --shared-client-connection
+philly      2700    1322  0 18:52 ?        00:00:00 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/philly/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 22.10 --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=107.0.5304.87 --initial-client-fd=4 --shared-client-connection
+philly      2706    2689  0 18:52 ?        00:00:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --enable-crashpad --crashpad-handler-pid=2698 --enable-crash-reporter=10e8053c-0f1a-46f2-a2d3-1ab940848ae2, --change-stack-guard-on-fork=enable --enable-crashpad
+philly      2707    2689  0 18:52 ?        00:00:00 /opt/google/chrome/chrome --type=zygote --enable-crashpad --crashpad-handler-pid=2698 --enable-crash-reporter=10e8053c-0f1a-46f2-a2d3-1ab940848ae2, --change-stack-guard-on-fork=enable --enable-crashpad
+philly      2708    2707  0 18:52 ?        00:00:00 /opt/google/chrome/nacl_helper
+philly      2711    2707  0 18:52 ?        00:00:00 /opt/google/chrome/chrome --type=zygote --enable-crashpad --crashpad-handler-pid=2698 --enable-crash-reporter=10e8053c-0f1a-46f2-a2d3-1ab940848ae2, --change-stack-guard-on-fork=enable --enable-crashpad
+philly      2731    2706  1 18:52 ?        00:00:06 /opt/google/chrome/chrome --type=gpu-process --enable-crashpad --crashpad-handler-pid=2698 --enable-crash-reporter=10e8053c-0f1a-46f2-a2d3-1ab940848ae2, --change-stack-guard-on-fork=enable --gpu-preferences=WAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,16767212978891654335,601348159006720664,131072
+philly      2736    2689  0 18:52 ?        00:00:02 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=2698 --enable-crash-reporter=10e8053c-0f1a-46f2-a2d3-1ab940848ae2, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,16767212978891654335,601348159006720664,131072 --enable-crashpad
+philly      2745    2711  0 18:52 ?        00:00:00 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --enable-crashpad --crashpad-handler-pid=2698 --enable-crash-reporter=10e8053c-0f1a-46f2-a2d3-1ab940848ae2, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,16767212978891654335,601348159006720664,131072
+philly      2841    2711  0 18:52 ?        00:00:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=2698 --enable-crash-reporter=10e8053c-0f1a-46f2-a2d3-1ab940848ae2, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-US --num-raster-threads=1 --renderer-client-id=7 --time-ticks-at-unix-epoch=-1666914551190501 --launch-time-ticks=211379491 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,16767212978891654335,601348159006720664,131072
+philly      2868    2711  0 18:52 ?        00:00:00 /opt/google/chrome/chrome --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --enable-crashpad --crashpad-handler-pid=2698 --enable-crash-reporter=10e8053c-0f1a-46f2-a2d3-1ab940848ae2, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,16767212978891654335,601348159006720664,131072
+philly      2892    2711  0 18:52 ?        00:00:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=2698 --enable-crash-reporter=10e8053c-0f1a-46f2-a2d3-1ab940848ae2, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-US --num-raster-threads=1 --renderer-client-id=12 --time-ticks-at-unix-epoch=-1666914551190501 --launch-time-ticks=220316168 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,16767212978891654335,601348159006720664,131072
+philly      2920    2711  0 18:52 ?        00:00:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=2698 --enable-crash-reporter=10e8053c-0f1a-46f2-a2d3-1ab940848ae2, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-US --num-raster-threads=1 --renderer-client-id=14 --time-ticks-at-unix-epoch=-1666914551190501 --launch-time-ticks=224882838 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,16767212978891654335,601348159006720664,131072
+philly      2958    2689  0 18:53 ?        00:00:00 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=2698 --enable-crash-reporter=10e8053c-0f1a-46f2-a2d3-1ab940848ae2, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,16767212978891654335,601348159006720664,131072 --enable-crashpad
+philly      2990    1322  0 18:53 ?        00:00:00 /usr/bin/nautilus --gapplication-service
+philly      3010    1347  0 18:53 ?        00:00:00 /usr/libexec/gvfsd-recent --spawner :1.5 /org/gtk/gvfs/exec_spaw/4
+philly      3119    2711  1 18:54 ?        00:00:04 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=2698 --enable-crash-reporter=10e8053c-0f1a-46f2-a2d3-1ab940848ae2, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-US --num-raster-threads=1 --renderer-client-id=26 --time-ticks-at-unix-epoch=-1666914551190501 --launch-time-ticks=291021210 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,16767212978891654335,601348159006720664,131072
+philly      3218    2711  0 18:56 ?        00:00:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=2698 --enable-crash-reporter=10e8053c-0f1a-46f2-a2d3-1ab940848ae2, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-US --num-raster-threads=1 --renderer-client-id=29 --time-ticks-at-unix-epoch=-1666914551190501 --launch-time-ticks=420018240 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,16767212978891654335,601348159006720664,131072
+philly      3311    1322  2 18:56 ?        00:00:02 /snap/sublime-text/112/opt/sublime_text/sublime_text --detached
+philly      3364    3311  0 18:56 ?        00:00:00 /snap/sublime-text/112/opt/sublime_text/plugin_host-3.3 3311 /snap/sublime-text/112/opt/sublime_text/sublime_text /home/philly/.config/sublime-text /home/philly/.cache/sublime-text /snap/sublime-text/112/opt/sublime_text/Packages
+philly      3367    3311  0 18:56 ?        00:00:00 /snap/sublime-text/112/opt/sublime_text/plugin_host-3.8 3311 /snap/sublime-text/112/opt/sublime_text/sublime_text /home/philly/.config/sublime-text /home/philly/.cache/sublime-text /snap/sublime-text/112/opt/sublime_text/Packages
+philly      3441    2567  0 18:58 pts/0    00:00:00 /bin/bash ./Heuser.bash
+philly      3445    3441  0 18:58 pts/0    00:00:00 ps -ef
+philly      3446    3441  0 18:58 pts/0    00:00:00 sort
+root           1       0  0 18:49 ?        00:00:00 /sbin/init splash
+root          10       2  0 18:49 ?        00:00:00 [mm_percpu_wq]
+root        1043       1  0 18:49 ?        00:00:00 /usr/libexec/upowerd
+root        1104       1  0 18:49 ?        00:00:02 /usr/libexec/packagekitd
+root          11       2  0 18:49 ?        00:00:00 [rcu_tasks_kthread]
+root         118       2  0 18:49 ?        00:00:00 [charger_manager]
+root         120       2  0 18:49 ?        00:00:00 [kworker/u2:4-events_unbound]
+root          12       2  0 18:49 ?        00:00:00 [rcu_tasks_rude_kthread]
+root        1306     751  0 18:49 ?        00:00:00 gdm-session-worker [pam/gdm-password]
+root          13       2  0 18:49 ?        00:00:00 [rcu_tasks_trace_kthread]
+root        1381    1366  0 18:50 ?        00:00:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+root          14       2  0 18:49 ?        00:00:00 [ksoftirqd/0]
+root          15       2  0 18:49 ?        00:00:00 [rcu_preempt]
+root          16       2  0 18:49 ?        00:00:00 [migration/0]
+root         162       2  0 18:49 ?        00:00:00 [scsi_eh_2]
+root         164       2  0 18:49 ?        00:00:00 [scsi_tmf_2]
+root         166       2  0 18:49 ?        00:00:00 [kworker/0:3-cgroup_destroy]
+root          17       2  0 18:49 ?        00:00:00 [idle_inject/0]
+root         189       2  0 18:49 ?        00:00:00 [jbd2/sda3-8]
+root         190       2  0 18:49 ?        00:00:00 [ext4-rsv-conver]
+root          19       2  0 18:49 ?        00:00:00 [cpuhp/0]
+root           2       0  0 18:49 ?        00:00:00 [kthreadd]
+root          20       2  0 18:49 ?        00:00:00 [kdevtmpfs]
+root        2032       1  0 18:50 ?        00:00:00 /usr/libexec/fwupd/fwupd
+root          21       2  0 18:49 ?        00:00:00 [inet_frag_wq]
+root          22       2  0 18:49 ?        00:00:00 [kauditd]
+root         230       1  0 18:49 ?        00:00:00 /lib/systemd/systemd-journald
+root          23       2  0 18:49 ?        00:00:00 [khungtaskd]
+root          24       2  0 18:49 ?        00:00:00 [oom_reaper]
+root         260       2  0 18:49 ?        00:00:00 [irq/18-vmwgfx]
+root         261       2  0 18:49 ?        00:00:00 [card0-crtc0]
+root         262       2  0 18:49 ?        00:00:00 [card0-crtc1]
+root         263       2  0 18:49 ?        00:00:00 [card0-crtc2]
+root         264       2  0 18:49 ?        00:00:00 [card0-crtc3]
+root         265       2  0 18:49 ?        00:00:00 [card0-crtc4]
+root         266       2  0 18:49 ?        00:00:00 [card0-crtc5]
+root         267       2  0 18:49 ?        00:00:00 [card0-crtc6]
+root         268       2  0 18:49 ?        00:00:00 [card0-crtc7]
+root          27       2  0 18:49 ?        00:00:00 [writeback]
+root         279       2  0 18:49 ?        00:00:00 [kworker/0:4-cgroup_destroy]
+root          28       2  0 18:49 ?        00:00:00 [kcompactd0]
+root         282       1  0 18:49 ?        00:00:00 /lib/systemd/systemd-udevd
+root          29       2  0 18:49 ?        00:00:00 [ksmd]
+root          30       2  0 18:49 ?        00:00:00 [khugepaged]
+root          31       2  0 18:49 ?        00:00:00 [kintegrityd]
+root        3200       2  0 18:55 ?        00:00:00 [kworker/0:1-events]
+root           3       2  0 18:49 ?        00:00:00 [rcu_gp]
+root          32       2  0 18:49 ?        00:00:00 [kblockd]
+root         327       2  0 18:49 ?        00:00:00 [cryptd]
+root        3293       2  0 18:56 ?        00:00:00 [kworker/u2:1-events_unbound]
+root          33       2  0 18:49 ?        00:00:00 [blkcg_punt_bio]
+root        3402       2  0 18:57 ?        00:00:00 [kworker/u2:2-flush-8:0]
+root          34       2  0 18:49 ?        00:00:00 [tpm_dev_wq]
+root          35       2  0 18:49 ?        00:00:00 [ata_sff]
+root          36       2  0 18:49 ?        00:00:00 [md]
+root          37       2  0 18:49 ?        00:00:00 [edac-poller]
+root          38       2  0 18:49 ?        00:00:00 [devfreq_wq]
+root          39       2  0 18:49 ?        00:00:00 [watchdogd]
+root          40       2  0 18:49 ?        00:00:00 [kswapd0]
+root          41       2  0 18:49 ?        00:00:00 [ecryptfs-kthread]
+root           4       2  0 18:49 ?        00:00:00 [rcu_par_gp]
+root          47       2  0 18:49 ?        00:00:00 [kthrotld]
+root          51       2  0 18:49 ?        00:00:00 [acpi_thermal_pm]
+root           5       2  0 18:49 ?        00:00:00 [netns]
+root          52       2  0 18:49 ?        00:00:00 [xenbus_probe]
+root          53       2  0 18:49 ?        00:00:00 [scsi_eh_0]
+root          54       2  0 18:49 ?        00:00:00 [scsi_tmf_0]
+root          55       2  0 18:49 ?        00:00:00 [scsi_eh_1]
+root          56       2  0 18:49 ?        00:00:00 [scsi_tmf_1]
+root          57       2  0 18:49 ?        00:00:00 [vfio-irqfd-clea]
+root          58       2  0 18:49 ?        00:00:00 [kworker/u2:3-flush-8:0]
+root          59       2  0 18:49 ?        00:00:00 [mld]
+root          60       2  0 18:49 ?        00:00:00 [ipv6_addrconf]
+root         613       1  0 18:49 ?        00:00:00 /usr/libexec/accounts-daemon
+root         617       1  0 18:49 ?        00:00:00 /usr/sbin/cron -f -P
+root           6       2  0 18:49 ?        00:00:00 [kworker/0:0-cgroup_destroy]
+root         640       1  0 18:49 ?        00:00:00 /usr/libexec/polkitd --no-debug
+root         641       1  0 18:49 ?        00:00:00 /usr/libexec/power-profiles-daemon
+root         646       1  0 18:49 ?        00:00:00 /usr/lib/snapd/snapd
+root         647       1  0 18:49 ?        00:00:00 /usr/libexec/switcheroo-control
+root          65       2  0 18:49 ?        00:00:00 [kstrp]
+root         652       1  0 18:49 ?        00:00:00 /lib/systemd/systemd-logind
+root         653       1  0 18:49 ?        00:00:00 /usr/libexec/udisks2/udisksd
+root         687       1  0 18:49 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root         693       1  0 18:49 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root         698       1  0 18:49 ?        00:00:00 /usr/sbin/ModemManager
+root          71       2  0 18:49 ?        00:00:00 [zswap-shrink]
+root           7       2  0 18:49 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          72       2  0 18:49 ?        00:00:00 [kworker/u3:0]
+root         730       1  0 18:49 ?        00:00:00 /usr/sbin/cupsd -l
+root         733       1  0 18:49 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         751       1  0 18:49 ?        00:00:00 /usr/sbin/gdm3
+root         779       1  0 18:49 ?        00:00:00 /usr/sbin/cups-browsed
+root           8       2  0 18:49 ?        00:00:00 [kworker/u2:0-events_power_efficient]
+root           9       2  0 18:49 ?        00:00:00 [kworker/0:1H-kblockd]
+rtkit        866       1  0 18:49 ?        00:00:00 /usr/libexec/rtkit-daemon
+syslog       645       1  0 18:49 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+systemd+     529       1  0 18:49 ?        00:00:00 /lib/systemd/systemd-oomd
+systemd+     530       1  0 18:49 ?        00:00:00 /lib/systemd/systemd-resolved
+systemd+     531       1  0 18:49 ?        00:00:00 /lib/systemd/systemd-timesyncd
+UID          PID    PPID  C STIME TTY          TIME CMD
+Hi There
+hi > file
+the date today is Thu Oct 27 06:58:10 PM CDT 2022
+There are 1 users logged in the system
+Thu Oct 27 06:58:10 PM CDT 2022
+Assignment6.bash       Desktop	  Downloads  file2.txt	file4.txt  Heuser.bash	Pictures  snap	     Videos
+Assignment6output.txt  Documents  file	     file3.txt	file.txt   Music	Public	  Templates
+/home/philly
+17
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-timesync:x:101:104:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:102:109::/nonexistent:/usr/sbin/nologin
+syslog:x:103:110::/home/syslog:/usr/sbin/nologin
+systemd-resolve:x:104:111:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+tss:x:106:113:TPM software stack,,,:/var/lib/tpm:/bin/false
+uuidd:x:107:116::/run/uuidd:/usr/sbin/nologin
+systemd-oom:x:108:117:systemd Userspace OOM Killer,,,:/run/systemd:/usr/sbin/nologin
+tcpdump:x:109:118::/nonexistent:/usr/sbin/nologin
+avahi-autoipd:x:110:119:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+usbmux:x:111:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+dnsmasq:x:112:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+kernoops:x:113:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+avahi:x:114:121:Avahi mDNS daemon,,,:/run/avahi-daemon:/usr/sbin/nologin
+cups-pk-helper:x:115:122:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+rtkit:x:116:123:RealtimeKit,,,:/proc:/usr/sbin/nologin
+whoopsie:x:117:124::/nonexistent:/bin/false
+sssd:x:118:125:SSSD system user,,,:/var/lib/sss:/usr/sbin/nologin
+speech-dispatcher:x:119:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+nm-openvpn:x:120:127:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+fwupd-refresh:x:121:128:fwupd-refresh user,,,:/run/systemd:/usr/sbin/nologin
+geoclue:x:122:129::/var/lib/geoclue:/usr/sbin/nologin
+saned:x:123:131::/var/lib/saned:/usr/sbin/nologin
+colord:x:124:132:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+gdm:x:125:133:Gnome Display Manager:/var/lib/gdm3:/bin/false
+hplip:x:126:7:HPLIP system user,,,:/run/hplip:/bin/false
+gnome-initial-setup:x:127:65534::/run/gnome-initial-setup/:/bin/false
+philly:x:1000:1000:philly,,,:/home/philly:/bin/bash
+philly   tty2         2022-10-27 18:50 (tty2)
+philly   tty2         2022-10-27 18:50 (tty2)
+Thu Oct 27 06:58:10 PM CDT 2022
+Assignment6.bash
+Assignment6output.txt
+Desktop
+Documents
+Downloads
+file
+file2.txt
+file3.txt
+file4.txt
+file.txt
+Heuser.bash
+Music
+out.text
+Pictures
+Public
+snap
+Templates
+Videos
+who.capture
+/home/philly
